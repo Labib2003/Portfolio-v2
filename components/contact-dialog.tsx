@@ -13,7 +13,7 @@ export function ContactDialog() {
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <button className="group flex h-full w-full items-center justify-center border-x border-black/20 bg-[#aebfff] text-[#101a44] outline-none transition-colors hover:bg-[#d7e0ff] focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-white" aria-label="Get in touch">
+        <button className="group flex h-full w-full items-center justify-center border-x border-[#7286d2] bg-[#aebfff] text-[#101a44] outline-none transition-colors hover:bg-[#d7e0ff] focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-white" aria-label="Get in touch">
           <Mail className="size-6 transition-transform duration-200 group-hover:-translate-y-0.5" strokeWidth={1.5} aria-hidden="true" />
         </button>
       </DialogTrigger>
